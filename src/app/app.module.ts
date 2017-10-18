@@ -28,8 +28,7 @@ import { AppComponent } from './app.component';
 import { APP_RESOLVER_PROVIDERS } from './app.resolver';
 import { AppState, InternalStateType } from './app.service';
 
-import '../styles/styles.scss';
-import '../styles/headings.css';
+import '../styles/main.scss';
 import { CoreModule } from './core';
 import { SharedModule } from './shared';
 import { FeaturesModule } from './features';

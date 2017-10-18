@@ -7,7 +7,7 @@ import {
   selector: 'header',
   templateUrl: 'header.component.html',
   styleUrls: ['header.component.scss'],
-  encapsulation: ViewEncapsulation.Native
+  encapsulation: ViewEncapsulation.None
 })
 export class HeaderComponent {
 

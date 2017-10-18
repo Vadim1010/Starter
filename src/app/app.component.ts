@@ -18,7 +18,7 @@ import { Router } from '@angular/router';
   selector: 'app',
   encapsulation: ViewEncapsulation.None,
   styleUrls: [
-    './app.component.css'
+    'app.component.scss',
   ],
   templateUrl: './app.component.html'
 })
