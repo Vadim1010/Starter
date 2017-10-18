@@ -6,6 +6,7 @@ import {
   OnInit,
   ViewEncapsulation
 } from '@angular/core';
+import './shared/rxjs-operators';
 import { AppState } from './app.service';
 import { Router } from '@angular/router';
 

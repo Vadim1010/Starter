@@ -1,3 +1,4 @@
+import './shared/rxjs-operators';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
@@ -32,6 +33,7 @@ import '../styles/headings.css';
 import { CoreModule } from './core';
 import { SharedModule } from './shared';
 import { FeaturesModule } from './features';
+
 
 // Application wide providers
 const APP_PROVIDERS = [
@@ -74,7 +76,7 @@ type StoreType = {
    */
   providers: [
     ENV_PROVIDERS,
-    APP_PROVIDERS
+    APP_PROVIDERS,
   ]
 })
 export class AppModule {
