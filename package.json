@@ -72,7 +72,7 @@
     "webdriver:update": "webdriver-manager update",
     "webpack-dev-server": "node --max_old_space_size=4096 node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "webpack": "node --max_old_space_size=4096 node_modules/webpack/bin/webpack.js",
-    "i-all": "npm i && cd ./node_modules/uui-framework && npm i && cd ./node_modules/uui-framework grunt uui && npm start"
+    "i-all": "cd node_modules/uui-framework && npm i && grunt uui"
   },
   "dependencies": {
     "@angular/animations": "~4.3.1",

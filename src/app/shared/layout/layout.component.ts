@@ -4,7 +4,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'template',
+  selector: 'tt-layout',
   templateUrl: 'layout.component.html',
   styleUrls: ['layout.component.scss'],
   encapsulation: ViewEncapsulation.Native
