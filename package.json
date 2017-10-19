@@ -71,7 +71,8 @@
     "webdriver:start": "npm run webdriver-manager start",
     "webdriver:update": "webdriver-manager update",
     "webpack-dev-server": "node --max_old_space_size=4096 node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "webpack": "node --max_old_space_size=4096 node_modules/webpack/bin/webpack.js"
+    "webpack": "node --max_old_space_size=4096 node_modules/webpack/bin/webpack.js",
+    "i-all": "npm i && cd ./node_modules/uui-framework && npm i && cd ./node_modules/uui-framework grunt uui && npm start"
   },
   "dependencies": {
     "@angular/animations": "~4.3.1",
@@ -154,6 +155,7 @@
     "typescript": "~2.2.2",
     "uglifyjs-webpack-plugin": "^0.4.6",
     "url-loader": "^0.5.8",
+    "uui-framework": "git+https://git.epam.com/epm-uui/uui-framework.git",
     "webpack": "^3.5.5",
     "webpack-dev-middleware": "^1.10.1",
     "webpack-dev-server": "~2.7.1",
