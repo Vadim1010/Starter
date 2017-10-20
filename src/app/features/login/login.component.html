@@ -42,7 +42,6 @@
           </div>
 
           <div class="uui-input-group input-login default">
-            <!--<input type="password" class="uui-form-element inputs__login"/>-->
             <tt-input [type]="'password'" [className]="'uui-form-element inputs__login'" [placeholder]="'password'"></tt-input>
             <i class="fa fa-lock inputs__login inputs__icon" aria-hidden="true"></i>
           </div>
@@ -60,11 +59,7 @@
         </div>
 
         <div class="login-form__info">
-          This system is owned by EPAM Systems. If you are not authorized to access this system, exit immediately.
-          Unauthorized access to this system is forbidden by company policies, national, and international laws.
-          Unauthorized users are subject to criminal and civil penalties as well as company initiated
-          disciplinary proceedings.By entering this system you acknowledge that you have authorized access
-          and appropriate of privilege within the system.
+          {{warningText}}
         </div>
 
       </div> <!--.login-form__body-->
@@ -74,3 +69,5 @@
   </div> <!--.row-->
 
 </div> <!--.container-->
+
+
