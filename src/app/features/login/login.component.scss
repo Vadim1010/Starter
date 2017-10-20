@@ -1,12 +1,12 @@
+@import '~styles/main';
+
 .login-form{
   width: 440px;
   height: 634px;
   margin: 90px auto;
 
-  .login-form__inner-wrapper{}
-
   .login-form__header{
-    background-color: #1A9CB0;
+    background-color: $color-dark_blue;
     opacity: 0.85;
     height: 108px;
     border: 1px solid transparent;
@@ -15,14 +15,14 @@
       font-family: Oswald;
       font-size: 30px;
       text-transform: none;
-      color: #fff;
+      color: $color-white;
       margin: 30px 0;
     }
   }
 
   .login-form__body{
     opacity: 0.8;
-    background-color: #f4f4f4;
+    background-color: $color-white;
     border: 1px solid transparent;
 
     .uui-login-panel .login-panel-body .login-panel-section .epam-login .uui-button{
@@ -57,30 +57,39 @@
         font-weight: 500;
         line-height: 0.93;
         text-align: left;
-        color: #999;
+        color: $color-gray;
       }
     }
 
-    .uui-input-group.input-login.default input{
-      width: 320px;
-      height: 42px;
-      background-color: #ffffff;
-      border: solid 1px #cccccc;
-    }
+    .uui-input-group.input-login.default{
+      margin: 10px 0;
 
-    .inputs__icon{
-      color: #ccc;
-      margin-left: -40px;
-      margin-top: 11px;
-      font-size: 18px;
+      input{
+        width: 320px;
+        height: 42px;
+        background-color: $color-white;
+        border: solid 1px $color-gray_light;
+        font-family: SourceSansPro;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 0.93;
+      }
+
+      .inputs__icon{
+        color: $color-gray_light;
+        margin-left: -40px;
+        margin-top: 11px;
+        font-size: 18px;
+      }
+
     }
 
     .uui-button--green{
-      background-color: #A3C644;
+      background-color: $color-green_lime;
       border: none;
-      
+
       &:hover{
-        background-color: #7F993A;
+        background-color: $color-dark_green;
       }
     }
 
@@ -91,7 +100,7 @@
       font-size: 10px;
       font-weight: 500;
       line-height: 1.4;
-      color: #999999;
+      color: $color-gray;
       height: 98px;
       text-align: justify;
       text-transform: uppercase;
