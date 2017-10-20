@@ -1,14 +1,18 @@
 import {
-  Component,
-  ViewEncapsulation,
+    Component,
+    ViewEncapsulation,
+    OnInit
 } from '@angular/core';
 
 @Component({
-  selector: 'header',
-  templateUrl: 'header.component.html',
-  styleUrls: ['header.component.scss'],
-  encapsulation: ViewEncapsulation.None
+    selector: 'tt-header',
+    templateUrl: 'header.component.html',
+    styleUrls: ['header.component.scss'],
+    encapsulation: ViewEncapsulation.None
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit {
+
+    ngOnInit() {
+    }
 
 }

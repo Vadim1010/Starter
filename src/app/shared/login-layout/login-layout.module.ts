@@ -1,15 +1,15 @@
 ﻿import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { TemplateComponent } from './layout.component';
+import { LoginLayoutComponent } from './login-layout.component';
 
 @NgModule({
   imports: [
     BrowserModule,
   ],
   declarations: [
-    TemplateComponent
+    LoginLayoutComponent
   ],
-  exports: [TemplateComponent],
+  exports: [LoginLayoutComponent],
 })
-export class TemplateModule {
+export class LoginLayoutModule {
 }

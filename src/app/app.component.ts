@@ -17,9 +17,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app',
   encapsulation: ViewEncapsulation.None,
-  styleUrls: [
-    'app.component.scss',
-  ],
+  styleUrls: ['app.component.scss'],
   templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit {
