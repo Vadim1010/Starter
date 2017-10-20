@@ -9,10 +9,9 @@ import {
     templateUrl: 'header.component.html',
     styleUrls: ['header.component.scss'],
     encapsulation: ViewEncapsulation.None
+
 })
 export class HeaderComponent implements OnInit {
-
     ngOnInit() {
     }
-
 }
