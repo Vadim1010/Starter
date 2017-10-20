@@ -13,11 +13,11 @@
           <div class="login-panel-body">
             <div class="login-panel-section">
               <div class="epam-login">
-                <button class="uui-button large raspberry">
+                <tt-button [className]="'uui-button large raspberry uui-button'">
                   <i class="fa fa-angle-left"></i>
                   EPAM Login
                   <i class="fa fa-angle-right"></i>
-                </button>
+                </tt-button>
               </div>
               <div class="login-separator login-form__separator">
                 <div class="border">
@@ -37,12 +37,13 @@
         <div class="login-form__inputs inputs">
 
           <div class="uui-input-group input-login default">
-            <input type="text" class="uui-form-element inputs__login"/>
+            <tt-input [type]="'mail'" [className]="'uui-form-element inputs__login'"></tt-input>
             <i class="fa fa-envelope inputs__login inputs__icon" aria-hidden="true"></i>
           </div>
 
           <div class="uui-input-group input-login default">
-            <input type="password" class="uui-form-element inputs__login"/>
+            <!--<input type="password" class="uui-form-element inputs__login"/>-->
+            <tt-input [type]="'password'" [className]="'uui-form-element inputs__login'" [placeholder]="'password'"></tt-input>
             <i class="fa fa-lock inputs__login inputs__icon" aria-hidden="true"></i>
           </div>
 
@@ -52,9 +53,7 @@
           <div class="login-panel-body">
             <div class="login-panel-section">
               <div class="epam-login">
-                <button class="uui-button large raspberry uui-button--green">
-                    Login
-                </button>
+                <tt-button [className]="'uui-button large raspberry uui-button--green'">Login</tt-button>
               </div>
             </div>
           </div>
@@ -75,4 +74,3 @@
   </div> <!--.row-->
 
 </div> <!--.container-->
-

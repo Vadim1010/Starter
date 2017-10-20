@@ -9,6 +9,5 @@ import {
   styleUrls: ['login.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
-export class LoginComponent {
-
+export class LoginComponent{
 }
